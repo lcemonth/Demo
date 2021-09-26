@@ -1,0 +1,61 @@
+16:18:13.184 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:18:13.219 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 32084 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+16:18:13.222 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+16:18:14.294 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:14.295 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:18:14.295 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:18:14.397 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+16:18:14.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:18:14.526 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:18:14.561 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:18:14.600 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:18:14.700 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:18:14.797 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:18:15.194 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:18:15.657 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:18:15.883 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:18:15.917 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+16:18:15.932 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:18:15.954 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+16:18:16.062 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.119 seconds (JVM running for 3.926)
+16:18:21.315 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:19:03.168 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+16:19:03.473 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+16:19:03.473 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 26, 2021 08:18:00 UTC
+16:19:03.575 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=35,302.4182, updateDate=2021/09/26 08:19:03], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=30,233.6755, updateDate=2021/09/26 08:19:03], CoindeskVo [currencyCode=USD, currencyName=美元, exchangeRate=41,374.7891, updateDate=2021/09/26 08:19:03]]
+16:19:06.729 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+16:19:06.811 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+16:19:06.811 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 26, 2021 08:18:00 UTC
+16:19:06.819 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=35,302.4182, updateDate=2021/09/26 08:19:06], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=30,233.6755, updateDate=2021/09/26 08:19:06], CoindeskVo [currencyCode=USD, currencyName=美元, exchangeRate=41,374.7891, updateDate=2021/09/26 08:19:06]]
+16:20:55.443 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:55.451 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.096 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.097 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.385 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.387 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.641 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.643 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.862 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.864 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:37.613 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:37.615 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.096 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.101 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.346 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.347 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.616 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.618 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.834 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.837 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.059 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.060 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.321 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.323 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.633 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.634 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.939 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.942 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:40.257 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:40.259 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:27:02.016 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:27:02.021 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

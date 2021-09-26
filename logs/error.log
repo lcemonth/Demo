@@ -1,0 +1,54 @@
+01:37:15.915 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:25.507 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:26.722 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:34.913 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:59.801 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:38:19.791 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:39:15.173 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Required request body is missing: public org.springframework.http.ResponseEntity com.example.controller.CurrencyController.addCurrency(com.example.vo.CurrencyVo)
+01:42:53.786 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null; nested exception is org.hibernate.HibernateException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null
+01:44:33.367 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null; nested exception is org.hibernate.HibernateException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null
+02:02:28.159 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+02:53:12.088 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+02:54:40.368 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:18:31.361 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: No class com.example.entity.CurrencyEntity entity with id 3 exists!
+14:32:49.436 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:50.782 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:51.431 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:51.748 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:52.021 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:33:14.269 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Target must not be null
+14:34:19.849 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Target must not be null
+14:34:59.000 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Target must not be null
+14:36:19.130 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:36:51.862 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:08.776 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:48.691 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:50.191 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:50.734 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:51.023 [http-nio-8080-exec-8] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:51.282 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:51.516 [http-nio-8080-exec-10] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:49:03.460 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:04.436 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:04.811 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.075 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.319 [http-nio-8080-exec-8] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.528 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.771 [http-nio-8080-exec-10] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.985 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.202 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.420 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.621 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.819 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:07.023 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:07.258 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:50:00.235 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+15:39:49.348 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:40:14.230 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:42:54.926 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:46:20.532 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:46:40.677 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:47:36.010 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:57:49.391 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 21 path $.time.
+15:59:41.654 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+16:08:43.847 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..

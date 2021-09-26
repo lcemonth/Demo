@@ -1,0 +1,968 @@
+00:00:03.678 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:06:16.721 [http-nio-8080-exec-4] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:07:52.994 [http-nio-8080-exec-6] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:08:53.333 [http-nio-8080-exec-7] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:09:06.387 [http-nio-8080-exec-8] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:09:34.370 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:09:34.398 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 68548 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+00:09:34.404 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+00:09:35.497 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:09:35.498 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:09:35.498 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+00:09:35.591 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+00:09:35.673 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:09:35.724 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:09:35.758 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:09:35.798 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:09:35.916 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:09:36.012 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:09:36.422 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:09:36.832 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:09:37.020 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:09:37.054 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:09:37.069 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:09:37.098 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:09:37.211 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.075 seconds (JVM running for 3.889)
+00:09:42.147 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:09:42.166 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:09:46.692 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:09:46.697 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:40:01.496 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:40:01.527 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 68372 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+00:40:01.530 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+00:40:02.589 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:40:02.589 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:40:02.589 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+00:40:02.696 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+00:40:02.779 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:40:02.825 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:40:02.860 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:40:02.899 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:40:02.999 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:40:03.094 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:40:03.489 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:40:03.967 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:40:04.147 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:40:04.184 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:40:04.199 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:40:04.227 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:40:04.336 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.073 seconds (JVM running for 3.969)
+00:40:08.023 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:40:08.046 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:40:08.730 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元] -----------
+00:40:08.732 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊] -----------
+00:40:08.733 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22] -----------
+00:40:13.715 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+00:40:13.871 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元] -----------
+00:40:13.872 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊] -----------
+00:40:13.873 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22] -----------
+00:40:33.623 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:40:33.629 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:54:14.452 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:54:14.481 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 67672 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+00:54:14.485 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+00:54:15.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:54:15.626 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:54:15.626 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+00:54:15.723 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+00:54:15.809 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:54:15.853 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:54:15.888 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:54:15.931 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:54:16.045 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:54:16.164 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:54:16.598 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:54:17.054 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:54:17.244 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:54:17.279 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:54:17.295 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:54:17.318 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:54:17.437 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.207 seconds (JVM running for 4.04)
+00:54:33.899 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:54:33.917 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+01:24:48.495 [http-nio-8080-exec-5] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+01:25:19.849 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:25:19.853 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:32:02.925 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+01:32:02.953 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 70580 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+01:32:02.958 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+01:32:04.054 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:32:04.054 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:32:04.055 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+01:32:04.153 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+01:32:04.234 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:32:04.282 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:32:04.317 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:32:04.357 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+01:32:04.456 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:32:04.552 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+01:32:04.955 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:32:05.421 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+01:32:05.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:32:05.641 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+01:32:05.655 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+01:32:05.679 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+01:32:05.790 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.089 seconds (JVM running for 3.912)
+01:32:13.399 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:32:44.620 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+01:32:44.860 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+01:32:44.861 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 25, 2021 17:32:00 UTC
+01:32:44.995 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=36,413.1688, updateDate=2021/09/25 17:32:44], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=31,184.9439, updateDate=2021/09/25 17:32:44], CoindeskVo [currencyCode=USD, currencyName=美元22, exchangeRate=42,676.6000, updateDate=2021/09/25 17:32:44]]
+01:33:34.000 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:33:34.011 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:33:38.978 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+01:33:39.007 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 70260 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+01:33:39.011 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+01:33:40.100 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:33:40.101 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:33:40.101 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+01:33:40.194 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+01:33:40.281 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:33:40.326 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:33:40.362 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:33:40.401 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+01:33:40.507 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:33:40.603 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+01:33:41.033 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:33:41.505 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+01:33:41.696 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:33:41.730 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+01:33:41.744 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+01:33:41.766 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+01:33:41.888 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.136 seconds (JVM running for 3.995)
+01:35:06.955 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:35:19.082 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+01:35:19.357 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+01:35:19.357 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 25, 2021 17:35:00 UTC
+01:35:19.474 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=36,460.2546, updateDate=2021/09/25 17:35:19], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=31,225.2691, updateDate=2021/09/25 17:35:19], CoindeskVo [currencyCode=USD, currencyName=美元22, exchangeRate=42,731.7850, updateDate=2021/09/25 17:35:19]]
+01:37:15.915 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:25.507 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:26.722 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:30.915 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:37:30.925 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣]]
+01:37:34.913 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:37:38.636 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:37:38.637 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣]]
+01:37:59.801 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:38:19.791 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - Exception: Content type 'text/plain;charset=UTF-8' not supported
+01:38:23.867 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:38:23.869 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣]]
+01:39:15.173 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Required request body is missing: public org.springframework.http.ResponseEntity com.example.controller.CurrencyController.addCurrency(com.example.vo.CurrencyVo)
+01:39:26.259 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:39:26.261 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣]]
+01:40:11.966 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=A, currencyName=台幣]
+01:40:16.878 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:40:16.880 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣]]
+01:40:28.047 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=A, currencyName=台幣]
+01:40:29.941 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:40:29.943 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:42:13.580 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:42:13.581 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:42:25.555 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 1
+01:42:25.556 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元]
+01:42:25.567 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元22]
+01:42:29.214 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:42:29.217 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:42:53.782 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 1
+01:42:53.782 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=USD, currencyName=美元1]
+01:42:53.783 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元]
+01:42:53.786 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null; nested exception is org.hibernate.HibernateException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null
+01:43:03.266 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:43:03.268 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:13.159 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:44:13.165 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:44:20.561 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+01:44:20.594 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 53776 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+01:44:20.598 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+01:44:21.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:44:21.632 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:44:21.633 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+01:44:21.723 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+01:44:21.802 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:44:21.852 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:44:21.886 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:44:21.925 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+01:44:22.022 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:44:22.116 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+01:44:22.506 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:44:22.975 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+01:44:23.165 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:44:23.200 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+01:44:23.215 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+01:44:23.237 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+01:44:23.359 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.05 seconds (JVM running for 3.841)
+01:44:27.821 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:44:27.865 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:44:27.963 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:28.720 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:44:28.722 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:29.633 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:44:29.636 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:33.348 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 1
+01:44:33.348 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=USD, currencyName=美元1]
+01:44:33.362 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元]
+01:44:33.367 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null; nested exception is org.hibernate.HibernateException: identifier of an instance of com.example.entity.CurrencyEntity was altered from 1 to null
+01:44:38.397 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:44:38.399 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:39.177 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:44:39.178 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:39.836 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+01:44:39.838 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+01:44:47.883 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 1
+01:44:47.884 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元1]
+01:44:47.885 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元]
+01:59:57.709 [http-nio-8080-exec-6] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+01:59:57.903 [http-nio-8080-exec-6] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+01:59:57.903 [http-nio-8080-exec-6] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 25, 2021 17:59:00 UTC
+01:59:57.920 [http-nio-8080-exec-6] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=36,434.1282, updateDate=2021/09/25 17:59:57], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=31,202.8939, updateDate=2021/09/25 17:59:57], CoindeskVo [currencyCode=USD, currencyName=美元1, exchangeRate=42,701.1647, updateDate=2021/09/25 17:59:57]]
+02:02:10.258 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+02:02:10.260 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+02:02:19.407 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 2
+02:02:24.635 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+02:02:24.636 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+02:02:27.905 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+02:02:28.150 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+02:02:28.151 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 25, 2021 18:02:00 UTC
+02:02:28.159 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+02:02:36.287 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:02:36.292 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02:08:01.287 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+02:08:01.316 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 54852 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+02:08:01.319 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+02:08:02.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:08:02.386 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:08:02.386 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+02:08:02.476 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+02:08:02.562 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:08:02.611 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:08:02.645 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:08:02.692 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+02:08:02.790 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02:08:02.888 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+02:08:03.283 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:08:03.758 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:08:03.963 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:08:04.001 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+02:08:04.016 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+02:08:04.039 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+02:08:04.157 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.095 seconds (JVM running for 3.905)
+02:08:08.838 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:08:08.855 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+02:08:09.514 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+02:08:09.515 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 25, 2021 18:08:00 UTC
+02:08:09.614 [http-nio-8080-exec-1] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=36,428.7403, updateDate=2021/09/25 18:08:09], CoindeskVo [currencyCode=GBP, currencyName=暫無資訊!, exchangeRate=31,198.2797, updateDate=2021/09/25 18:08:09], CoindeskVo [currencyCode=USD, currencyName=美元1, exchangeRate=42,694.8500, updateDate=2021/09/25 18:08:09]]
+02:36:48.813 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:36:48.911 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02:37:15.922 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+02:37:15.950 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 40116 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+02:37:15.953 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+02:37:17.027 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:37:17.028 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:37:17.028 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+02:37:17.130 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+02:37:17.213 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:37:17.267 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:37:17.303 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:37:17.343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+02:37:17.442 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02:37:17.546 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+02:37:18.016 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:37:18.484 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:37:18.679 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:37:18.713 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+02:37:18.729 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+02:37:18.756 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+02:37:18.866 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.171 seconds (JVM running for 3.987)
+02:37:21.548 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:39:07.836 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+02:39:07.937 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+02:53:12.074 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+02:53:12.088 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+02:53:21.065 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+02:54:40.362 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 2
+02:54:40.362 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+02:54:40.368 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:01:39.216 [RMI TCP Connection(694)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:01:39.223 [RMI TCP Connection(694)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:06:19.071 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:06:19.103 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 46056 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:06:19.107 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:06:20.259 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:06:20.259 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:06:20.259 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:06:20.376 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:06:20.460 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:06:20.512 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:06:20.550 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:06:20.592 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:06:20.700 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:06:20.799 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:06:21.245 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:06:21.777 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:06:21.989 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:06:22.042 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:06:22.062 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:06:22.096 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:06:22.220 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.391 seconds (JVM running for 4.255)
+14:06:37.565 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:06:37.613 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+14:06:37.715 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣]]
+14:06:48.808 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=A1, currencyName=台幣]
+14:07:01.805 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+14:07:01.808 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=11, currencyCode=A1, currencyName=台幣]]
+14:14:00.107 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:14:01.679 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:14:06.231 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=A1, currencyName=台幣]
+14:18:07.380 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:18:07.386 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:18:18.142 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:18:18.173 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 53312 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:18:18.176 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:18:19.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:18:19.243 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:18:19.243 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:18:19.331 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:18:19.413 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:18:19.459 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:18:19.492 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:18:19.530 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:18:19.629 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:18:19.752 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:18:20.170 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:18:20.645 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:18:20.832 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:18:20.872 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:18:20.887 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:18:20.909 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:18:21.019 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.104 seconds (JVM running for 3.953)
+14:18:28.952 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:18:29.007 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:18:31.356 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:18:31.361 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: No class com.example.entity.CurrencyEntity entity with id 3 exists!
+14:32:34.708 [RMI TCP Connection(23)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:32:34.714 [RMI TCP Connection(23)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:32:41.771 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:32:41.803 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 64700 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:32:41.806 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:32:42.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:32:42.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:32:42.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:32:43.055 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:32:43.142 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:32:43.193 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:32:43.235 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:32:43.278 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:32:43.388 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:32:43.500 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:32:43.944 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:32:44.444 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:32:44.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:32:44.707 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:32:44.728 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:32:44.753 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:32:44.876 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.34 seconds (JVM running for 4.204)
+14:32:49.362 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:32:49.414 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:32:49.436 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:50.780 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:32:50.782 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:51.430 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:32:51.431 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:51.746 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:32:51.748 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:32:52.019 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 3
+14:32:52.021 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:33:07.715 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+14:33:07.809 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=11, currencyCode=A1, currencyName=台幣], CurrencyEntity [currencyID=12, currencyCode=A1, currencyName=台幣]]
+14:33:14.262 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:33:14.264 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣]
+14:33:14.269 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Target must not be null
+14:33:21.958 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:33:21.963 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:33:28.070 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:33:28.097 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 68296 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:33:28.100 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:33:29.151 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:33:29.152 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:33:29.152 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:33:29.250 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:33:29.330 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:33:29.376 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:33:29.411 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:33:29.449 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:33:29.549 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:33:29.644 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:33:30.044 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:33:30.541 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:33:30.729 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:33:30.763 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:33:30.779 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:33:30.802 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:33:30.907 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.085 seconds (JVM running for 3.892)
+14:33:32.805 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:33:32.811 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:33:40.625 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:33:40.659 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 65020 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:33:40.662 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:33:41.825 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:33:41.825 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:33:41.825 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:33:41.932 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:33:42.023 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:33:42.075 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:33:42.115 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:33:42.159 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:33:42.272 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:33:42.380 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:33:42.848 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:33:43.398 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:33:43.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:33:43.646 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:33:43.663 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:33:43.689 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:33:43.805 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.441 seconds (JVM running for 4.459)
+14:33:52.016 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:33:52.083 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+14:33:52.197 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1], CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=5, currencyCode=AAA, currencyName=台幣], CurrencyEntity [currencyID=9, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=10, currencyCode=A, currencyName=台幣], CurrencyEntity [currencyID=11, currencyCode=A1, currencyName=台幣], CurrencyEntity [currencyID=12, currencyCode=A1, currencyName=台幣]]
+14:34:03.498 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:34:03.789 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣]
+14:34:19.849 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Target must not be null
+14:34:36.660 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:34:44.978 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣]
+14:34:59.000 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Target must not be null
+14:35:31.223 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:35:31.262 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 62752 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:35:31.265 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:35:32.453 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:35:32.453 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:35:32.453 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:35:32.548 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:35:32.656 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:35:32.719 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:35:32.768 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:35:32.816 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:35:32.971 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:35:33.096 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:35:33.578 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:35:34.124 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:35:34.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:35:34.380 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:35:34.401 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:35:34.429 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:35:34.548 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.58 seconds (JVM running for 4.615)
+14:35:42.587 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:35:45.708 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:35:48.589 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=AAA, currencyName=台幣]
+14:36:05.526 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:36:19.130 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:36:46.645 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:36:51.862 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:04.258 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:37:08.776 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:48.689 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:37:48.689 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:37:48.691 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:50.189 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:37:50.189 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:37:50.191 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:50.732 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:37:50.732 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:37:50.734 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:51.022 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:37:51.022 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:37:51.023 [http-nio-8080-exec-8] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:51.280 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:37:51.280 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:37:51.282 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:37:51.514 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:37:51.514 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:37:51.516 [http-nio-8080-exec-10] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: Cannot invoke "com.example.entity.CurrencyEntity.toString()" because "findByCurrencyEntity" is null
+14:40:02.605 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:40:02.646 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 71004 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:40:02.651 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:40:03.805 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:40:03.805 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:40:03.805 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:40:03.908 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:40:04.006 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:40:04.064 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:40:04.108 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:40:04.152 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:40:04.281 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:40:04.392 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:40:04.865 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:40:05.438 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:40:05.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:40:05.682 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:40:05.701 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:40:05.730 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:40:05.847 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.503 seconds (JVM running for 4.525)
+14:40:29.821 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:40:29.946 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:40:29.946 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:43:25.604 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:43:25.638 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 67056 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:43:25.641 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:43:26.811 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:43:26.811 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:43:26.812 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:43:26.900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:43:26.986 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:43:27.043 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:43:27.079 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:43:27.123 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:43:27.233 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:43:27.348 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:43:27.825 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:43:28.363 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:43:28.571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:43:28.602 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:43:28.619 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:43:28.644 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:43:28.769 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.425 seconds (JVM running for 4.441)
+14:43:35.188 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:43:35.310 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:43:35.310 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:43:36.579 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+14:43:36.580 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:43:43.581 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 1
+14:43:43.581 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=1, currencyCode=USD, currencyName=美元22]
+14:43:43.591 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元1]
+14:45:18.316 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:45:30.187 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+14:48:55.664 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:48:55.703 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 67832 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:48:55.713 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:48:56.821 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:48:56.821 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:48:56.821 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:48:56.916 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:48:56.995 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:48:57.042 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:48:57.077 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:48:57.117 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:48:57.216 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:48:57.313 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:48:57.712 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:48:58.167 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:48:58.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:48:58.390 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:48:58.409 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:48:58.432 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:48:58.545 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.109 seconds (JVM running for 4.002)
+14:48:59.338 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:48:59.390 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:49:00.385 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:49:01.048 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:49:03.456 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:03.460 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:04.435 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:04.436 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:04.809 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:04.811 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.073 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:05.075 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.318 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:05.319 [http-nio-8080-exec-8] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.526 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:05.528 [http-nio-8080-exec-9] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.770 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:05.771 [http-nio-8080-exec-10] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:05.984 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:05.985 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.200 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:06.202 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.418 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:06.420 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.619 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:06.621 [http-nio-8080-exec-4] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:06.818 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:06.819 [http-nio-8080-exec-5] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:07.020 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:07.023 [http-nio-8080-exec-6] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:07.257 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:49:07.258 [http-nio-8080-exec-7] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:49:22.143 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:49:22.150 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:49:28.253 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:49:28.289 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 62484 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:49:28.292 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:49:29.448 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:49:29.448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:49:29.448 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:49:29.542 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:49:29.636 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:49:29.690 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:49:29.726 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:49:29.771 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:49:29.889 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:49:29.996 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:49:30.475 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:49:31.012 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:49:31.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:49:31.262 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:49:31.279 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:49:31.310 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:49:31.427 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.428 seconds (JVM running for 4.44)
+14:49:47.100 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:49:47.164 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:50:00.235 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - IllegalArgumentException: Source must not be null
+14:56:10.648 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:56:10.682 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 65640 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+14:56:10.688 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:56:11.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:56:11.879 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:56:11.880 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+14:56:11.984 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+14:56:12.084 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:56:12.141 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:56:12.180 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:56:12.228 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:56:12.347 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:56:12.462 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:56:12.974 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:56:13.583 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:56:13.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:56:13.834 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:56:13.852 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:56:13.878 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:56:13.997 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.623 seconds (JVM running for 4.659)
+14:56:21.326 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:56:21.396 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 2
+14:56:34.666 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:56:35.787 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+14:56:36.055 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:03:00.774 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:03:00.803 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 46380 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:03:00.807 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:03:01.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:03:01.912 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:03:01.912 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:03:02.000 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:03:02.080 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:03:02.125 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:03:02.158 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:03:02.197 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:03:02.293 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:03:02.387 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:03:02.783 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:03:03.262 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:03:03.450 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:03:03.483 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:03:03.497 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:03:03.519 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:03:03.623 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.082 seconds (JVM running for 3.956)
+15:03:17.061 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:03:17.106 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+15:03:17.201 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+15:06:26.177 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:06:27.313 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:06:27.616 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:06:27.875 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:06:28.091 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:06:36.110 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+15:06:36.112 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+15:06:38.177 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+15:06:38.178 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+15:06:40.889 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=NTD, currencyName=台幣]
+15:06:45.480 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:06:56.715 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+15:06:56.715 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+15:06:56.716 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=台幣]
+15:07:02.614 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:07:06.759 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+15:07:06.760 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+15:07:09.314 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:13:20.710 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:22.599 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:23.657 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:24.177 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:24.583 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:24.973 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:25.308 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:25.643 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:25.929 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:13:26.214 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:14:53.780 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:15:09.213 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=NTD, currencyName=台幣]
+15:16:01.085 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=NTD, currencyName=台幣]
+15:17:12.170 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:19:50.434 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:19:51.448 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:19:51.967 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:22:26.538 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+15:22:26.538 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+15:23:15.290 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=NTD, currencyName=台幣]
+15:23:29.670 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 1
+15:23:35.328 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:23:41.444 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyId = 4
+15:23:41.444 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+15:23:41.445 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=台幣]
+15:24:22.150 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:26:02.871 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: currencyId = 4
+15:26:02.872 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+15:26:47.570 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findByid method: currencyId = 4
+15:34:52.279 [RMI TCP Connection(41)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:34:52.284 [RMI TCP Connection(41)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:39:34.189 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:39:34.221 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 43260 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:39:34.224 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:39:35.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:39:35.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:39:35.407 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:39:35.504 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:39:35.591 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:39:35.643 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:39:35.679 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:39:35.721 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:39:35.835 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:39:35.945 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:39:36.419 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:39:36.933 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:39:37.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:39:37.207 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:39:37.223 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:39:37.249 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:39:37.367 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.432 seconds (JVM running for 4.464)
+15:39:48.878 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:39:49.348 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:40:14.230 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:42:54.926 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:45:33.375 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:45:33.407 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 57124 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:45:33.413 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:45:34.695 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:45:34.696 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:45:34.696 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:45:34.800 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:45:34.905 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:45:34.961 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:45:35.000 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:45:35.045 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:45:35.173 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:45:35.296 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:45:35.843 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:45:36.423 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:45:36.686 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:45:36.719 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:45:36.736 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:45:36.761 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:45:36.879 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.75 seconds (JVM running for 4.777)
+15:45:52.225 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:45:52.258 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 68948 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:45:52.265 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:45:53.510 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:45:53.511 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:45:53.511 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:45:53.610 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:45:53.704 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:45:53.775 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:45:53.825 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:45:53.875 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:45:54.012 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:45:54.140 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:45:54.645 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:45:55.209 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:45:55.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:45:55.526 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:45:55.544 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:45:55.574 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:45:55.700 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.73 seconds (JVM running for 4.776)
+15:46:08.206 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:46:20.532 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:46:40.677 [http-nio-8080-exec-2] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:47:36.010 [http-nio-8080-exec-3] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+15:51:19.516 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:51:19.547 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 44544 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:51:19.551 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:51:20.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:51:20.630 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:51:20.630 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:51:20.722 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:51:20.799 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:51:20.846 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:51:20.880 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:51:20.919 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:51:21.020 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:51:21.118 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:51:21.515 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:51:21.978 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:51:22.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:51:22.232 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:51:22.248 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:51:22.273 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:51:22.401 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.115 seconds (JVM running for 3.94)
+15:51:33.912 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:51:59.323 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:51:59.328 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:57:30.576 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:57:30.606 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 68148 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:57:30.609 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:57:31.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:57:31.780 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:57:31.780 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:57:31.873 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:57:31.963 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:57:32.028 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:57:32.065 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:57:32.108 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:57:32.229 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:57:32.342 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:57:32.849 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:57:33.393 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:57:33.647 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:57:33.679 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:57:33.696 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:57:33.722 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:57:33.836 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.517 seconds (JVM running for 4.513)
+15:57:40.548 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:57:49.391 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 21 path $.time.
+15:59:02.368 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+15:59:02.404 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 55076 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+15:59:02.407 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:59:03.581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:59:03.581 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:59:03.582 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+15:59:03.685 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+15:59:03.772 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:59:03.824 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:59:03.860 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:59:03.901 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+15:59:04.014 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:59:04.124 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+15:59:04.599 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:59:05.105 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:59:05.358 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:59:05.390 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:59:05.408 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:59:05.433 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:59:05.551 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.44 seconds (JVM running for 4.466)
+15:59:20.405 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:59:41.654 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+16:08:26.704 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:08:26.737 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 54436 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+16:08:26.740 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+16:08:27.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:08:27.929 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:08:27.930 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:08:28.020 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+16:08:28.116 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:08:28.171 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:08:28.208 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:08:28.251 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:08:28.364 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:08:28.470 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:08:28.937 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:08:29.453 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:08:29.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:08:29.723 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+16:08:29.740 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:08:29.765 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+16:08:29.877 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.427 seconds (JVM running for 4.469)
+16:08:37.258 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:08:43.847 [http-nio-8080-exec-1] ERROR com.example.service.CurrencyServiceImpl - RuntimeException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 345 path $.bpi..
+16:11:05.208 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:11:05.241 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 66420 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+16:11:05.244 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+16:11:06.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:11:06.428 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:11:06.428 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:11:06.523 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+16:11:06.616 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:11:06.671 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:11:06.706 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:11:06.747 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:11:06.860 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:11:06.973 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:11:07.466 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:11:07.979 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:11:08.237 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:11:08.269 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+16:11:08.287 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:11:08.314 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+16:11:08.430 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.49 seconds (JVM running for 4.497)
+16:11:15.607 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:12:46.641 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:12:46.678 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 43496 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+16:12:46.681 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+16:12:47.729 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:12:47.729 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:12:47.730 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:12:47.829 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+16:12:47.912 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:12:47.957 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:12:47.992 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:12:48.035 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:12:48.135 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:12:48.231 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:12:48.633 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:12:49.086 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:12:49.309 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:12:49.343 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+16:12:49.358 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:12:49.381 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+16:12:49.489 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.078 seconds (JVM running for 3.886)
+16:12:53.801 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:13:29.385 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:13:29.390 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:18:13.184 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:18:13.219 [main] INFO  com.example.DemoApplication - Starting DemoApplication using Java 16.0.2 on LAPTOP-NV9HQ47D with PID 32084 (D:\software\SpringWS\Demo\target\classes started by User in D:\software\SpringWS\Demo)
+16:18:13.222 [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+16:18:14.294 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:14.295 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:18:14.295 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:18:14.397 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring embedded WebApplicationContext
+16:18:14.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:18:14.526 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:18:14.561 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:18:14.600 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:18:14.700 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:18:14.797 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:18:15.194 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:18:15.657 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:18:15.883 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:18:15.917 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+16:18:15.932 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:18:15.954 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+16:18:16.062 [main] INFO  com.example.DemoApplication - Started DemoApplication in 3.119 seconds (JVM running for 3.926)
+16:18:21.315 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:19:03.168 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+16:19:03.473 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+16:19:03.473 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 26, 2021 08:18:00 UTC
+16:19:03.575 [http-nio-8080-exec-2] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=35,302.4182, updateDate=2021/09/26 08:19:03], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=30,233.6755, updateDate=2021/09/26 08:19:03], CoindeskVo [currencyCode=USD, currencyName=美元, exchangeRate=41,374.7891, updateDate=2021/09/26 08:19:03]]
+16:19:06.729 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method
+16:19:06.811 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+16:19:06.811 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Sep 26, 2021 08:18:00 UTC
+16:19:06.819 [http-nio-8080-exec-3] INFO  com.example.service.CoindeskServiceImpl - findCoindeskDatas method coindeskVoList = [CoindeskVo [currencyCode=EUR, currencyName=歐元, exchangeRate=35,302.4182, updateDate=2021/09/26 08:19:06], CoindeskVo [currencyCode=GBP, currencyName=英鎊, exchangeRate=30,233.6755, updateDate=2021/09/26 08:19:06], CoindeskVo [currencyCode=USD, currencyName=美元, exchangeRate=41,374.7891, updateDate=2021/09/26 08:19:06]]
+16:20:55.443 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:55.451 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.096 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.097 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.385 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.387 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.641 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.643 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:20:56.862 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:20:56.864 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:37.613 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:37.615 [http-nio-8080-exec-1] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.096 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.101 [http-nio-8080-exec-3] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.346 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.347 [http-nio-8080-exec-4] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.616 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.618 [http-nio-8080-exec-5] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:38.834 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:38.837 [http-nio-8080-exec-2] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.059 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.060 [http-nio-8080-exec-6] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.321 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.323 [http-nio-8080-exec-7] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.633 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.634 [http-nio-8080-exec-8] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:39.939 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:39.942 [http-nio-8080-exec-9] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:26:40.257 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method
+16:26:40.259 [http-nio-8080-exec-10] INFO  com.example.service.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+16:27:02.016 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:27:02.021 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
